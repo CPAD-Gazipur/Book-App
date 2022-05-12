@@ -1,4 +1,5 @@
 import 'package:book_app/models/book.dart';
+import 'package:book_app/pages/details/details.dart';
 import 'package:flutter/material.dart';
 
 class BookItem extends StatelessWidget {
@@ -7,14 +8,21 @@ class BookItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: book.height as double,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage(book.imageUrl),
-          fit: BoxFit.cover,
+    return GestureDetector(
+      onTap: () => Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (context) => DetailsPage(book),
         ),
-        borderRadius: BorderRadius.circular(16),
+      ),
+      child: Container(
+        height: book.height as double,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage(book.imageUrl),
+            fit: BoxFit.cover,
+          ),
+          borderRadius: BorderRadius.circular(16),
+        ),
       ),
     );
   }

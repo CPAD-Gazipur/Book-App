@@ -12,6 +12,7 @@ class BookStaggerGridView extends StatelessWidget {
       : super(key: key);
 
   var bookList = Book.generateBook();
+
   @override
   Widget build(BuildContext context) {
     return Container(
