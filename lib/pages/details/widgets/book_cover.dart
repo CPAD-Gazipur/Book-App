@@ -1,5 +1,6 @@
 import 'package:book_app/constants/color.dart';
 import 'package:book_app/models/book.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class BookCover extends StatelessWidget {
@@ -11,7 +12,7 @@ class BookCover extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 10),
       padding: const EdgeInsets.only(left: 20),
-      height: 250,
+      height: kIsWeb? 450 : 250,
       child: Stack(
         children: [
           Container(
