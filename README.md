@@ -1,16 +1,33 @@
-# book_app
+# Book App
+This is an Flutter Application UI for Book App. Here you can get Tab View of Books & Audiobooks. Also get details of book.
 
-A new Flutter project.
+### Download App:
 
-## Getting Started
+Link: https://terabox.com/s/1Joyi02-UXKLwRzhN37LgvA
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Screenshots:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Home Screen      |  Details Screen | 
+| :---:       |    :----:   | 
+| <img src="screenshots/book_app_home_screen.png" width="250">       |  <img src="screenshots/book_app_details_screen.png" width="250">     |
+
+| Web Home Screen      |  Web Details Screen | 
+| :---:       |    :----:   | 
+| <img src="screenshots/web_book_app_home_screen.png" width="250">       |  <img src="screenshots/web_book_app_details_screen.png" width="250">     |
+
+### Disclaimer
+This project is made only for educational purpose. Anyone can use it but the risk has to be taken by the user.
+for any query please contact me.
+
+### Repository Owner Info
+
+### Md. Al-Amin
+##### Junior Software Engineer (Android & iOS) at Rokomari.com
+
+__Email :__ [ alamin.karno@outlook.com ](mailto:alamin.karno@outlook.com) <br>
+__Github :__ [Md. Al-Amin](https://github.com/karno786)<br>
+__Facebook :__ [মোঃ আল-আমিন খন্দকার কর্ণ](https://facebook.com/alamin.kanro786) <br>
+__Linkedin :__ [Md. Alamin Karno](https://www.linkedin.com/in/alaminkarno/)
+<br>
