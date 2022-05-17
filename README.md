@@ -11,11 +11,11 @@ Link: https://terabox.com/s/1Joyi02-UXKLwRzhN37LgvA
 
 | Home Screen      |  Details Screen | 
 | :---:       |    :----:   | 
-| <img src="screenshots/book_app_home_screen.png" width="250">       |  <img src="screenshots/book_app_details_screen.png" width="250">     |
+| <img src="screenshots/book_app_home_screen.png">       |  <img src="screenshots/book_app_details_screen.png">     |
 
 | Web Home Screen      |  Web Details Screen | 
 | :---:       |    :----:   | 
-| <img src="screenshots/web_book_app_home_screen.png" width="250">       |  <img src="screenshots/web_book_app_details_screen.png" width="250">     |
+| <img src="screenshots/web_book_app_home_screen.png">       |  <img src="screenshots/web_book_app_details_screen.png">     |
 
 ### Disclaimer
 This project is made only for educational purpose. Anyone can use it but the risk has to be taken by the user.
