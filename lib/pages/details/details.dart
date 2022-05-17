@@ -14,12 +14,16 @@ class DetailsPage extends StatelessWidget {
     return Scaffold(
       appBar: _buildAppBar(context),
       backgroundColor: Colors.white,
-      body: Column(
-        children: [
-          BookDetails(book),
-          BookCover(book),
-          BookReview(book),
-        ],
+      body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        physics: const ScrollPhysics(),
+        child: Column(
+          children: [
+            BookDetails(book),
+            BookCover(book),
+            BookReview(book),
+          ],
+        ),
       ),
     );
   }
